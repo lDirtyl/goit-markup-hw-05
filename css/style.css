@@ -85,11 +85,11 @@ h1, h2, h3, h4, h5, h6, p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 120px;
 }
 
 .footer-logo-text {
 	display: inline-block;
+	margin-left: 120px;
 	
 }
 
@@ -157,6 +157,11 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-social-icon {
 	fill: white;
 }
+
+.footer-form {
+	margin-left: 80px;
+}
+
 .footer-form-text {
 	color: var(--white);
 	margin-bottom: 16px;
@@ -170,11 +175,10 @@ h1, h2, h3, h4, h5, h6, p {
 	position: relative;
 	max-width: 264px;
 	width: 100%;
-	
 }
 
 .footer-form-input {
-	width: 100%;
+	width: 264px;
 	height: 40px;
 	padding: 8px 16px;
 	border-radius: 4px;
